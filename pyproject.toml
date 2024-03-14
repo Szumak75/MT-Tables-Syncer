@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mt-tables-syncer"
+name = "mt-tables-sync"
 version = "0.1.0"
 description = ""
 authors = ["Jacek Kotlarski <szumak@virthost.pl>"]
