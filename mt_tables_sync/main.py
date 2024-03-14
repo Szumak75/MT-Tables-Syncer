@@ -9,6 +9,8 @@
 
 from jsktoolbox.libs.base_data import BData
 
+import mt_tables_sync._version
+
 
 class MtTablesSync(BData):
     """MtTablesSync main class."""
@@ -16,6 +18,11 @@ class MtTablesSync(BData):
     def __init__(self) -> None:
         """Constructor."""
         super(MtTablesSync, self).__init__()
+
+    # class properties
+    @property
+    def version(self) -> str:
+        return mt_tables_sync._version.__version__
 
 
 # #[EOF]#######################################################################

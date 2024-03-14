@@ -12,6 +12,7 @@ import sys
 from mt_tables_sync.main import MtTablesSync
 
 if __name__ == "__main__":
+    obj = MtTablesSync()
     sys.exit(0)
 
 # #[EOF]#######################################################################
