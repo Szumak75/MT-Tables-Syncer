@@ -8,8 +8,13 @@
 """
 
 from jsktoolbox.libs.base_data import BData
+from jsktoolbox.attribtool import ReadOnlyClass
 
 import mt_tables_sync._version
+
+
+class _Keys(object, metaclass=ReadOnlyClass):
+    """Internal _Keys class."""
 
 
 class MtTablesSync(BData):
